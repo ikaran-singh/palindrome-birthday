@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Tenali Ramakrishna", sans-serif;
+}
+
+h1 {
+  margin-top: 2rem;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+input {
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  width: 100%;
+  max-width: 270px;
+  padding: 0.4rem 0.4rem;
+  border-color: blueviolet;
+}
+
+button {
+  background: blueviolet;
+  color: #fff;
+  display: block;
+  margin: auto;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  font-size: large;
+}
+
+#output {
+  margin: 1.5rem 0;
+  font-size: x-large;
+}
